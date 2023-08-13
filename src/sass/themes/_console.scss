@@ -1,0 +1,35 @@
+.console{
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+
+    .navigation {
+        border-top: 1px solid #666;
+        display: inline-block;
+        padding: 0.5rem;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 12px;
+        background-color: #1f1f1f;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+            li {
+                display: inline-flex;
+                &::before{
+                    content: '> ';
+                }
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

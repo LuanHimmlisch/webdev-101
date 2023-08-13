@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development 101</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body class="loading nineties">
+    <section id="section-1" aria-labelledby="section-1-title">
+        <h1 id="section-1-title"></h1>
+    </section>
+    <section class="slide half" id="section-2" aria-labelledby="section-2-title">
+        <h2 id="section-2-title">Quién soy</h2>
+        <main>
+            <img class="img-small" src="img/me.png" alt="">
+            <div>
+                <details class="mr-auto">
+                    <summary>Detalles</summary>
+                    <ul>
+                        <li>Creador de videojuegos</li>
+                        <li>Desarrollador web profesional</li>
+                        <li>Freelancer</li>
+                        <li>Promotor del Open-Source</li>
+                        <li>Shitpostero</li>
+                    </ul>
+                </details>
+            </div>
+        </main>
+    </section>
+    <section class="slide" id="section-3" aria-labelledby="section-3-title">
+        <h2 id="section-3-title">Qué son los archivos</h2>
+        <div class="image-reveal">
+            <img src="img/files.png" alt="">
+        </div>
+    </section>
+    <section class="slide" id="section-4" aria-labelledby="section-4-title">
+        <h2 id="section-4-title">Como encontrar archivos</h2>
+        <main>
+            <code>
+                <pre>/</pre>
+                <pre>..</pre>
+                <pre>./</pre>
+                <pre>/misistema/miusuario/unacarpeta/otra_carpeta/miarchivo.txt</pre>
+                <pre>./unacarpeta/otra_carpeta/miarchivo.txt</pre>
+                <pre>./unacarpeta/otra_carpeta/una_carpeta_mas/../miarchivo.txt</pre>
+            </code>
+        </main>
+    </section>
+    <section class="slide half" id="section-5" aria-labelledby="section-5-title">
+        <h2 id="section-5-title">El internet</h2>
+        <main>
+            <div>
+                <img class="img-small" src="img/cat.gif" alt="">
+            </div>
+            <div>
+                <ul class="mr-auto">
+                    <li>Tercera revolución industrial</li>
+                    <li>+ Cuarta revolución industrial</li>
+                    <li>La herramienta de comunicación más poderosa</li>
+                    <li>Esa cosa que nos permite ver TikToks</li>
+                </ul>
+            </div>
+        </main>
+    </section>
+    <section class="slide half" id="section-6" aria-labelledby="section-6-title">
+        <h2 id="section-6-title">Gringolandia</h2>
+        <main>
+            <div>
+                <ul class="ml-auto">
+                    <li>Nacido de mentes frias</li>
+                    <li>Criado por filósofos</li>
+                    <li>Usado por compañias</li>
+                    <li>Adoptado por todos</li>
+                </ul>
+            </div>
+            <div>
+                <img class="img-small" src="img/ted.jpg" alt="">
+            </div>
+        </main>
+    </section>
+    <section class="slide half" id="section-7" aria-labelledby="section-7-title">
+        <h2 id="section-7-title">El "hiper"-espacio</h2>
+        <main>
+            <div>
+                <img class="img-small" src="img/hyperspace.jpg" alt="">
+            </div>
+            <div>
+                <p class="mr-auto">
+                    Hiper-texto, hiper-vinculo, hiper-medio...
+                </p>
+            </div>
+        </main>
+    </section>
+    <section class="slide" id="section-8" aria-labelledby="section-8-title">
+        <h2 id="section-8-title">La importancia de Internet</h2>
+        <main>
+            <img class="img-small" src="img/protesters.jpg" alt="Foto de protestantes mostrando celulares">
+        </main>
+    </section>
+    <section class="slide" id="section-9" aria-labelledby="section-9-title">
+        <h2 id="section-9-title">El Estándar Web</h2>
+        <main>
+            <img class="img-small" src="img/w3c.png" alt="Captura de pantalla de www.w3.org">
+        </main>
+    </section>
+    <section class="slide" id="section-10" aria-labelledby="section-10-title">
+        <h2 id="section-10-title">El World Wide Web</h2>
+        <main>
+            <img class="img-small" src="img/client-server-model.png" alt="Diagrama del modelo cliente/servidor">
+        </main>
+    </section>
+    <section class="slide" id="section-11" aria-labelledby="section-11-title">
+        <h2 id="section-11-title">El Backend y Frontend</h2>
+        <main>
+            <img class="img-small" src="img/backend-frontend.png" alt="Dos fotos de un león de enfrente y atrás">
+        </main>
+    </section>
+    <section class="slide half" id="section-12" aria-labelledby="section-12-title">
+        <h2 id="section-12-title">El lenguaje de la web: HTTP</h2>
+        <main>
+            <div>
+                <img class="img-small" src="img/http.jpg" alt="">
+            </div>
+            <div>
+                <ul class="mr-auto">
+                    <li>GET: Obtener/Leer</li>
+                    <li>POST: Publicar/Escribir</li>
+                    <li>PUT: Modificar/Actualizar</li>
+                    <li>DELETE: Eliminar</li>
+                    <li><strike>PATCH</strike></li>
+                    <li><strike>HEAD</strike> </li>
+                </ul>
+            </div>
+        </main>
+    </section>
+    <section class="slide" id="section-13" aria-labelledby="section-13-title">
+        <h2 id="section-13-title">Ejemplo de GET</h2>
+        <main>
+            <form action="#section-13" method="get" autocomplete="off">
+                <input type="text" placeholder="Usuario" name="usuario">
+                <input type="password" placeholder="Contraseña" name="contraseña">
+                <button type="submit">Login</button>
+            </form>
+        </main>
+    </section>
+    <section class="slide" id="section-14" aria-labelledby="section-14-title">
+        <h2 id="section-14-title">Ejemplo de POST</h2>
+        <main>
+            <form action="#section-14" method="post" autocomplete="off">
+                <input type="text" placeholder="Usuario" name="usuario">
+                <input type="password" placeholder="Contraseña" name="contraseña">
+                <button type="submit">Login</button>
+            </form>
+        </main>
+    </section>
+    <section class="slide" id="section-15" aria-labelledby="section-15-title">
+        <main>
+            <p id="section-15-title">Ya merito empezamos...</p>
+        </main>
+    </section>
+    <section class="slide" id="section-16" aria-labelledby="section-16-title">
+        <h2 id="section-16-title">Nuestras herramientas</h2>
+        <main>
+            <img class="img-small" src="img/frontend-tech.png"
+                alt="Una imagen describiendo la relación de HTML, CSS y JavaScript">
+        </main>
+    </section>
+    <section class="slide" id="section-17" aria-labelledby="section-17-title">
+        <h2 id="section-17-title">Lenguaje de Marcado de HiperTexto</h2>
+        <main>
+            <img class="img-small" src="img/html.jpg" alt="">
+        </main>
+    </section>
+    <section class="slide half" id="section-18" aria-labelledby="section-18-title">
+        <h2 id="section-18-title">Otros Lenguajes de Marcado</h2>
+        <main>
+            <div>
+                <ul>
+                    <li>Word/Procesadores de texto: <b>WYSIWYG</b></li>
+                    <li>WhatsApp/Discord/Github: <b>Markdown</b></li>
+                    <li>Foros viejitos: <b>BBCode</b></li>
+                </ul>
+            </div>
+            <div>
+                <img class="img-small" src="img/ms-word.jpg" alt="">
+            </div>
+        </main>
+    </section>
+    <section class="slide" id="section-19" aria-labelledby="section-19-title">
+        <main>
+            <form method="get" data-switcher>
+                <fieldset>
+                    <legend id="section-19-title">Tema</legend>
+                    <input type="radio" name="theme" id="nineties" value="nineties" checked>
+                    <label for="nineties">90's</label><br>
+                    <input type="radio" name="theme" id="kinda-modern" value="kinda-modern">
+                    <label for="kinda-modern">00's</label><br>
+                    <input type="radio" name="theme" id="console" value="console">
+                    <label for="console">Console</label><br>
+                </fieldset>
+            </form>
+        </main>
+    </section>
+    <section class="slide triple" id="section-20" aria-labelledby="section-20-title">
+        <h2 id="section-20-title">Modelo Caja</h2>
+        <main>
+            <div>
+                <span style="padding: 1rem; background-color: #f00">
+                    Caja con padding
+                </span>
+            </div>
+            <div>
+                <span style="margin: 1rem; background-color: #f00">
+                    Caja con margin
+                </span>
+            </div>
+            <div>
+                <span style="border: 2px solid #00f; background-color: #f00">
+                    Caja con borde
+                </span>
+            </div>
+        </main>
+    </section>
+    <section class="slide" id="section-21" aria-labelledby="section-21-title">
+        <h2 id="section-21-title">Ahora sí, a desarrollar</h2>
+        <main>
+            <img class="img-small" src="img/landing.jpg" alt="">
+        </main>
+    </section>
+    <section class="slide" id="section-22" aria-labelledby="section-22-title">
+        <h2 id="section-22-title">Ahora sí, la carnita asada</h2>
+        <main>
+            <img class="img-small" src="img/" alt="">
+        </main>
+    </section>
+
+    <header class="navigation">
+        <nav>
+            <ul>
+                <li><a href="#section-1">Bienvenidos</a></li>
+                <li><a href="#section-2">Luan Himmlisch</a></li>
+                <li><a href="#section-3">TICs</a></li>
+                <li><a href="#section-5">Historia de la web</a></li>
+                <li><a href="#section-10">Servidor y cliente</a></li>
+                <li><a href="#section-16">Lenguajes FrontEnd</a></li>
+                <li><a href="#">Estructura HTML</a></li>
+                <li><a href="#section-20">Modelo Caja</a></li>
+                <li><a href="#" class="disabled">Interactividad</a></li>
+                <li><a href="#" class="disabled">Accesibilidad</a></li>
+                <li><a href="#" class="disabled">SEO</a></li>
+                <li><a href="#section-22">Desarrollo de un sitio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="dist/app.js"></script>
+</body>
+
+</html>
